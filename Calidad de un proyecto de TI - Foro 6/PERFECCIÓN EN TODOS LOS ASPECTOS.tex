@@ -1,0 +1,93 @@
+\documentclass[12pt,letterpaper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[spanish]{babel}
+\usepackage{times}
+\usepackage[margin=2.54cm]{geometry}
+\usepackage{setspace}
+\usepackage{titlesec}
+\usepackage{hyperref}
+\usepackage{xurl}
+\usepackage{fancyhdr}
+\usepackage{microtype}
+\sloppy
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{6pt}
+\singlespacing
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot[C]{\thepage}
+\renewcommand{\headrulewidth}{0pt}
+
+\titleformat{\section}{\bfseries}{}{0em}{}
+\titlespacing{\section}{0pt}{6pt}{2pt}
+
+\hypersetup{colorlinks=true, urlcolor=blue, linkcolor=black}
+
+\begin{document}
+
+\begin{center}
+{\bfseries PERFECCIÓN EN TODOS LOS ASPECTOS}\\[4pt]
+\textit{K.V Ramirez Ambrocio}\\
+7690-22-2239 \quad Universidad Mariano Gálvez\\
+Seminario de Tecnologías de Información\\
+kramireza10@miumg.edu.gt
+\end{center}
+
+\vspace{6pt}
+
+\section*{Resumen}
+  
+
+\textbf{Palabras clave:} calidad de software, gestión de proyectos, ISO/IEC 25010, aseguramiento de la calidad, control de calidad.
+
+\section*{Desarrollo del tema}
+
+La mayoría de veces se piensa que la calidad de un proyecto de TI se revisa al final, cuando el sistema ya está hecho y solo falta probarlo. El problema es que, si algo salió mal desde los requisitos, ya es tarde y muy caro para corregirlo. Por eso conviene pensar en la calidad como algo que va de la mano  con el proyecto. Según el modelo de la ISO 25010, la calidad de un sistema es qué tanto este cumple las necesidades, dichas y no dichas, de las personas interesadas, y por eso les da valor real (ISO 25000, s.f.).
+
+Para empezar, hay que separar dos ideas que seguido se confunden. El aseguramiento de la calidad busca prevenir que se produzcan defectos, y para eso revisa y mejora la forma en que el equipo trabaja. El control de calidad, en cambio, mide los entregables y detecta defectos que ya existen para poder corregirlos . Dicho de forma sencilla, el aseguramiento cuida el proceso y el control cuida el producto. Un proyecto que solo hace control se la pasa apagando incendios, mientras que uno que también asegura la calidad evita que muchos de esos incendios empiecen.
+
+Ese trabajo se organiza en un plan de gestión de la calidad. Este documento explica cómo se van a aplicar las políticas, los procedimientos y las guías para llegar a los objetivos de calidad del proyecto, y puede ser formal o informal según lo que el proyecto necesite , ahora bien tenemos que un sistema tenga calidad se define un modelo de calidad de producto con nueve características. Estas son adecuación funcional, eficiencia de desempeño, compatibilidad, capacidad de interacción, fiabilidad, seguridad de la información, mantenibilidad, flexibilidad y seguridad física, que en inglés se conoce como safety y habla de que el sistema no cause daño a personas o a su entorno (ISO/IEC, 2023). La misma norma explica que este modelo sirve en varias etapas del proyecto, como al definir los requisitos, al decidir qué probar, al fijar los criterios del control de calidad y al establecer cuándo un entregable se acepta (ISO/IEC, 2023).
+
+Lo importante es que no todas las características pesan igual en todos los proyectos. Una aplicación de control de inventario seguramente necesita priorizar la fiabilidad y la adecuación funcional, porque si los números no cuadran la aplicación no sirve. En cambio, un juego móvil puede darle más peso a la capacidad de interacción y al desempeño. Por eso el primer paso práctico es sentarse con el equipo y las personas interesadas, y escoger cuáles de las nueve características son las críticas para ese proyecto en particular.
+
+La calidad necesita mejora continua. El aseguramiento de la calidad debería apoyarse siempre en la idea de aprender de lo que pasó para hacerlo mejor la próxima vez y eso implica actualizar el plan de calidad cuando el equipo descubre qué funcionó y qué no , para poder cerrar cada fase con una pequeña revisión de lecciones aprendidas es una forma sencilla de lograrlo.Es importante distinguir entre fuentes sólidas y contenido comercial. La norma ISO/IEC 25010 es un estándar internacional, publicado por organismos reconocidos, así que su definición de las características es información verificable.
+
+\section*{Observaciones y comentarios}
+
+Algo que llama la atención al revisar este tema es que casi todos los equipos dicen que les importa la calidad, pero muy pocos la definen con palabras concretas. Decir que el sistema debe ser bueno no sirve de mucho, mientras que decir que debe responder en menos de dos segundos y no perder datos sí se puede medir. El modelo de la ISO 25010 ayuda justamente a pasar de lo vago a lo medible.
+
+También se nota que existe cierto miedo, hay quienes piensan que un plan de calidad es papeleo que nadie lee. Sin embargo, la propia definición del plan dice que puede ser informal, así que el reto no es escribir más, sino escribir lo justo y usarlo de verdad.
+
+Como limitación, este trabajo no profundizó en modelos de madurez de procesos como CMMI ni en técnicas específicas de pruebas automatizadas, porque el enfoque fue entender el panorama general.
+
+\section*{Conclusiones}
+
+Garantizar la calidad de un proyecto de TI empieza desde la planeación y no al final, porque corregir un error de requisitos cuando el sistema ya está terminado cuesta mucho más que evitarlo desde el inicio.
+
+Diferenciar entre aseguramiento y control de la calidad ayuda a ver que no basta con probar el producto, también hay que cuidar la forma en que el equipo trabaja para que los errores no se produzcan.
+
+El modelo de la ISO/IEC 25010 da un lenguaje común para decir qué es calidad, pero lo más útil es escoger cuáles de sus características son las más importantes para cada proyecto y volverlas criterios concretos del trabajo diario. Un equipo que revisa lo que aprendió y actualiza su plan de calidad en cada fase va a entregar mejores resultados en cada proyecto que siga.
+
+\section*{Referencias}
+
+\begin{spacing}{1.0}
+\small
+\setlength{\parindent}{-1.27cm}
+\setlength{\leftskip}{1.27cm}
+
+ISO 25000. (s.f.). \textit{ISO/IEC 25010}. \url{https://iso25000.com/index.php/en/iso-25000-standards/iso-25010/45-iso-iec-25010}
+
+ISO/IEC. (2023). \textit{Systems and software engineering: Systems and software quality requirements and evaluation (SQuaRE): Product quality model} (ISO/IEC 25010:2023). \url{https://committee.iso.org/standard/78176.html}
+
+Project Engineer. (s.f.). \textit{Project quality management according to the PMBOK}. \url{https://projectengineer.net/project-quality-management-according-to-the-pmbok}
+
+ZetCode. (s.f.). \textit{ISO 25010 quality model}. \url{https://www.zetcode.com/terms-testing/iso-25010}
+
+\end{spacing}
+
+\vspace{12pt}
+\noindent\small Repositorio Git: \url{https://github.com/Valki11/seminario-encuesta}
+
+\end{document}
